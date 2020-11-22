@@ -1,0 +1,131 @@
+#background {
+    height: 100%;
+    margin-top: 0;
+    padding-top: 0;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-size: cover;
+    transition: 2s;
+    opacity: 1s;
+}
+
+#navbar {
+    height: 20%;
+    font-size: 50px;
+    display: flex;
+    background-image: url(imgs/footer.png);
+    background-color: turquoise;
+    margin-bottom: 100px;
+}
+
+#greeting {
+    width: 80%;
+    font-size: 40px;
+    color: whitesmoke;
+    font-family: 'Rubik', sans-serif;
+    margin-left: 40px;
+    align-self: center;
+}
+
+.mySlides{
+    height: 100%;
+    width: 100%;
+}
+
+#card-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    margin-top: -30%;
+    width: 85%;
+}
+.card {
+    height: 200px;
+    width: 200px;
+    background-color: whitesmoke;
+    display: inline-block;
+    border-radius: 10%;
+    box-shadow: thistle 2px 2px 1px 1px;
+    transition: 0.2s;
+    margin-right: 40px;
+    margin-left: 60px;
+}
+
+.card:hover {
+    transform: scale(1.2);
+}
+
+.pics {
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+    box-shadow: black 2px 2px 1px 1px;
+    
+}
+
+#footer{
+    background-color: black;
+    height: 200px;
+    justify-content: flex-end;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+    margin-bottom: 0;
+    background-image: url(imgs/footer.png);
+    background-size: cover;
+}
+
+.sub-footer1 {
+    width: 30%; 
+    font-size: 15px; 
+    display: inline-block; 
+    color: white; 
+    vertical-align: top;  
+    padding-top: 35px; 
+    text-align: left; 
+    padding-right: 30px; 
+    padding-left: 50px;
+}
+
+.sub-footer2 {
+    width: 20%; 
+    font-size: 15px; 
+    display: inline-block; 
+    color: white; 
+    vertical-align: top;  
+    padding-top: 35px; 
+    text-align: left; 
+    padding-right: 30px; 
+    padding-left: 50px;
+}
+
+.sub-footer3 {
+    width: 20%; 
+    font-size: 15px; 
+    display: inline-block; 
+    color: white; 
+    vertical-align: top;  
+    padding-top: 35px;
+    text-align: center;
+}
+
+.sub-footer4 {
+    width: 10%; 
+    height: 100%;
+    display: inline-block; 
+    color: white; 
+    vertical-align: top;  
+    padding-top: 35px;
+    text-align: end;
+}
+
+.sub-footer4:hover {
+    transform: scale(1.2);
+}
+
+.footerpics {
+    height: 35px;  
+    width: 35px;
+    padding-right: 5px; 
+}

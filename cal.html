@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="cal.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Armata&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin+Condensed&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="background">
+        <div id="navbar">
+            <div>
+                <img src="imgs/ab9294e2-7a56-4bcc-9f90-98b8787298f5_200x200.png" style="height: 150px; padding-left: 20px; display: inline-block;">
+            </div>
+            <div class="navlink">
+                <a href="homepage.html" class="navcontent">HOME</a>
+            </div>
+            <div class="navlink">
+                <a href="timer.html" class="navcontent">STOPWATCH</a>
+            </div>
+            <div class="navlink">
+                <a href="note.html" class="navcontent">NOTE</a>
+            </div>
+        </div><br>
+    
+        <div id="wrapper"> 
+            <h1>Calculator</h1>
+            <h2>JavaScript Calculator</h2>
+            <div id="content">
+                <table border="1" style="text-align: center;">
+                    <tr>
+                        <td colspan="3">
+                            <div id="input">
+                                <div id="num"></div>
+                                <div id="op"></div>
+                            </div>
+                        </td>
+                        <td><button onclick="clearInput()" style="height: 80px; font-family: 'Orbitron', sans-serif;">Clear</button></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="setNum(1)" class="sub-button">1</button></td>
+                        <td><button onclick="setNum(2)" class="sub-button">2</button></td>
+                        <td><button onclick="setNum(3)" class="sub-button">3</button></td>
+                        <td><button onclick="setOp('/')" class="sub-button">/</button></td>
+                        
+                    </tr>
+                    <tr>
+                        <td><button onclick="setNum(4)" class="sub-button">4</button></td>
+                        <td><button onclick="setNum(5)" class="sub-button">5</button></td>
+                        <td><button onclick="setNum(6)" class="sub-button">6</button></td>
+                        <td><button onclick="setOp('-')" class="sub-button">-</button></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="setNum(7)" class="sub-button">7</button></td>
+                        <td><button onclick="setNum(8)" class="sub-button">8</button></td>
+                        <td><button onclick="setNum(9)" class="sub-button">9</button></td>
+                        <td><button onclick="setOp('+')" class="sub-button">+</button></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="setNum('.')" class="sub-button">.</button></td>
+                        <td><button onclick="setNum(0)" class="sub-button">0</button></td>
+                        <td><button onclick="solve()" class="sub-button">=</button></td>
+                        <td><button onclick="setOp('*')" class="sub-button">*</button></td>
+                    </tr>  
+                </table>
+            </div>
+        </div>
+    </div>
+   
+    <div id="footer">
+        <div class="sub-footer1">
+            © Copyright 2007 - 2020 <br>
+            Tầng 1 Toà nhà Halo Building, Số 2 Nguyễn Huy Tưởng, Thanh Xuân, Hà Nội.<br>
+            Giấy phép thiết lập trang thông tin điện tử tổng hợp trên internet số 3634/GP-TTĐT<br>
+            Do Sở Thông tin và Truyền thông TP Hà Nội cấp ngày 06/09/2017<br>   
+        </div>
+        <div class="sub-footer2">
+            <b>BAN BIÊN TẬP</b><br>
+            Số 1, ngõ 2 đường Tràng Tiền, Hà Nội.<br>
+            Điện thoại: 1900 561 252<br>
+            Email: info@gamex.vn<br><br>
+            <a href="https://www.facebook.com/"><img src="imgs/fbicon1.jpg" class="footerpics"></a>
+            <a href="https://www.messenger.com/"><img src="imgs/messicon1.jpg" class="footerpics"></a>
+            <a href="https://twitter.com/"><img src="imgs/twiticon1.png" class="footerpics"></a>
+        </div>
+        <div class="sub-footer3">
+            <img src="imgs/ab9294e2-7a56-4bcc-9f90-98b8787298f5_200x200.png" style="height: 150px;">
+        </div>
+        <div class="sub-footer4">
+            <a href="#navbar">
+                <img src="imgs/arrow1.png" style="height: 75px;">
+    </div>
+    <script src="cal.js"></script>
+</body>
+</html>
