@@ -18,8 +18,29 @@
     margin-bottom: 100px;
 }
 
+#butwrapper {
+    display: inline-block;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#logout button {
+    background-color: darkblue;
+    cursor: pointer;
+    outline: none;
+    border: 0px;
+    border-radius: 100px;
+    height: 45px;
+    width: 200px;
+    color: white;
+    font-weight: bold;
+    font-family:  'Roboto', sans-serif;
+    transition: all 0.3s;
+    font-size: 30px;
+}
+
 #greeting {
-    width: 80%;
+    width: 60%;
     font-size: 40px;
     color: whitesmoke;
     font-family: 'Rubik', sans-serif;
@@ -40,6 +61,7 @@
     margin-top: -30%;
     width: 85%;
 }
+
 .card {
     height: 200px;
     width: 200px;
