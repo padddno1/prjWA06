@@ -1,10 +1,15 @@
+body {
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0;
+}
+
 #background {
     height: 100%;
     margin-top: 0;
     padding-top: 0;
-    margin-left: 100px;
-    margin-right: 100px;
-    background-size: cover;
+    margin: 0;
+    
     transition: 2s;
     opacity: 1s;
 }
@@ -14,29 +19,36 @@
     font-size: 50px;
     display: flex;
     background-image: url(imgs/footer.png);
-    background-color: turquoise;
+    background-size: cover;
     margin-bottom: 100px;
 }
 
 #butwrapper {
     display: inline-block;
-    justify-content: center;
+  
     margin-top: 10px;
+    float: right;
 }
 
-#logout button {
-    background-color: darkblue;
+#logout {
+    margin-top: 50px;
+    background-color: whitesmoke;
     cursor: pointer;
     outline: none;
     border: 0px;
     border-radius: 100px;
     height: 45px;
-    width: 200px;
+    width: 180px;
     color: white;
     font-weight: bold;
     font-family:  'Roboto', sans-serif;
     transition: all 0.3s;
-    font-size: 30px;
+    font-size: 25px;
+    float: right;
+}
+
+#logout:hover {
+    transform: scale(1.2);
 }
 
 #greeting {
@@ -44,7 +56,8 @@
     font-size: 40px;
     color: whitesmoke;
     font-family: 'Rubik', sans-serif;
-    margin-left: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
     align-self: center;
 }
 
@@ -59,7 +72,7 @@
     align-items: center;
     position: absolute;
     margin-top: -30%;
-    width: 85%;
+    width: 100%;
 }
 
 .card {
@@ -90,8 +103,8 @@
     background-color: black;
     height: 200px;
     justify-content: flex-end;
-    margin-left: 100px;
-    margin-right: 100px;
+    /* margin-left: 100px;
+    margin-right: 100px; */
     margin-top: 100px;
     margin-bottom: 0;
     background-image: url(imgs/footer.png);

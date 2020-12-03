@@ -1,12 +1,36 @@
+body {
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0;
+}
+
 #background {
     height: 100%;
     margin-top: 0;
     padding-top: 0;
-    margin-left: 100px;
-    margin-right: 100px;
-    background-size: cover;
     transition: 2s;
     opacity: 1s;
+}
+
+#logout {
+    margin-top: 50px;
+    background-color: whitesmoke;
+    cursor: pointer;
+    outline: none;
+    border: 0px;
+    border-radius: 100px;
+    height: 45px;
+    width: 180px;
+    color: white;
+    font-weight: bold;
+    font-family:  'Roboto', sans-serif;
+    transition: all 0.3s;
+    font-size: 25px;
+    float: right;
+}
+
+#logout:hover {
+    transform: scale(1.2);
 }
 
 #wrapper {
@@ -29,6 +53,7 @@
     font-size: 50px;
     display: flex;
     background-image: url(imgs/footer.png);
+    background-size: cover;
     margin-bottom: 70px;
 }
 
@@ -78,17 +103,16 @@ p {
     padding-bottom: 100px;
 }
 
-button{
-    background: purple;
-    color:black;
+#button-start, #button-stop, #button-reset{
+    background: midnightblue;
+    color: thistle;
     border: solid black 1px;
     text-decoration: none;
     cursor: pointer;
     font-size: 20px;
-    padding: 18px 50px;
     width: 180px;
+    height: 50px;
     margin: 0px;
-    padding-top: 20px;
     font-family: 'Barlow Condensed', sans-serif;
     font-weight: bolder;
 }
@@ -101,8 +125,6 @@ button{
     background-color: black;
     height: 200px;
     justify-content: flex-end;
-    margin-left: 100px;
-    margin-right: 100px;
     margin-top: 100px;
     margin-bottom: 0;
     background-image: url(imgs/footer.png);

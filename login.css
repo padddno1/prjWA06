@@ -1,38 +1,62 @@
 body { 
-    justify-content: center;
-    align-items: center;
     font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0;
 }
+
 #wrapper {
-    background-color: teal;
+    background-image: url(imgs/signupbg1.jpg);
+    background-size: cover;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+
+#intro {
+    display: inline-block;
+    float: right;
+    margin-right: 10%;
+    color: whitesmoke;
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+}
+
 #body {
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
 }
+
+#sep {
+    /* display: inline-block; */
+    width: 2px;
+    height: 500px;
+    background-color: whitesmoke;
+}
+
 #card{
-    height: 45vh;
-    width: 30vw;
-    background-color:cyan;
+    display: inline-block;
+    height: 100%;
+    width: 30%;
+    background-color: rebeccapurple;
     border-radius: 10px;
     box-shadow: black 2px 2px 20px 0px;
     flex-direction: column;
+    justify-content: end;
+    margin-left: 10%;
 }
 #card-title {
     font-weight: bold;
     font-size: 30px;
     text-align: center;
-    margin: 10px 0px;
     font-family: 'IBM Plex Sans', sans-serif;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
 }
 .input-label {
     font-size: 15px;
@@ -53,11 +77,10 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    margin-top: 10px;
 }
 #button-wrapper button {
-    background-color:royalblue;
+    background-color: darkblue;
     cursor: pointer;
     outline: none;
     border: 0px;
@@ -69,17 +92,19 @@ body {
     font-family:  'Roboto', sans-serif;
     transition: all 0.3s;
 }
+
 #button-wrapper button:hover {
     opacity: 0.7;
 }
+
 #button-wrapper button:active {
     opacity: 0.5;
 }
+
 #error-mess{
     text-align: center;
     font-size: 15px;
     margin-top: 10px;
-    
     color: red;
     font-weight: bold;
 }
